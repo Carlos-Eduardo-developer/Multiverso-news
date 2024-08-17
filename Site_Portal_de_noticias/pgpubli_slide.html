@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="O site que ensina a criar sites"> 
+<meta name="keywords" content="site, web, curso, online, on-line, html">
+
+<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
+<title>Publicidade</title>
+
+<base target="_blank">
+
+<!--INÍCO DO BANNER-->
+
+<script type="text/javascript">
+function slide1(){
+document.getElementById('id').src="img_publicidade/publicidade1.jpg";  
+setTimeout("slide2()", 4000)
+document.getElementById('aId').href="http://olhardigital.com.br/"
+}
+ 
+function slide2(){
+document.getElementById('id').src="img_publicidade/publicidade2.jpg"; 
+setTimeout("slide3()", 4000)
+document.getElementById('aId').href="https://tecnoblog.net//"
+}
+ 
+function slide3(){
+document.getElementById('id').src="img_publicidade/publicidade3.jpg"; 
+setTimeout("slide4()", 4000)
+document.getElementById('aId').href="http://www.techtudo.com.br/"
+}
+
+function slide4(){
+document.getElementById('id').src="img_publicidade/publicidade4.jpg"; 
+setTimeout("slide1()", 4000)
+document.getElementById('aId').href="https://canaltech.com.br/"
+}
+
+</script>
+<!--FIM DO BANNER-->
+
+</head>
+
+<body onLoad="slide1()">
+<a id="aId"><img id="id"></a>
+
+</body>
+</html>
